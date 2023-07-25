@@ -4,7 +4,7 @@ from PIL import Image, ImageOps
 
 ROWS = 260    # Number of rows
 HOR_TIME = 64 # Time of horizontal line in us
-HOR_RES = 0.125   # Horizontal resolution in us
+HOR_RES = 1   # Horizontal resolution in us
 COLUMNS = int(HOR_TIME/HOR_RES)  # Number of columns
 
 NAME="PET9_"+str(HOR_RES)+"us"
